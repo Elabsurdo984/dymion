@@ -15,9 +15,13 @@ class Vector:
         return f"Vector(x={self.x}, y={self.y}, z={self.z})"
 
     def __add__(self, other: Vector) -> Vector:
+        if not isinstance(other, Vector):
+            raise TypeError(f"Unsupported operand type for +: 'Vector' and '{type(other).__name__}'")
         return Vector(self.x + other.x, self.y + other.y, self.z + other.z)
 
     def __sub__(self, other: Vector) -> Vector:
+        if not isinstance(other, Vector):
+            raise TypeError(f"Unsupported operand type for -: 'Vector' and '{type(other).__name__}'")
         return Vector(self.x - other.x, self.y - other.y, self.z - other.z)
 
     def __mul__(self, scalar: Union[float, int]) -> Vector:
