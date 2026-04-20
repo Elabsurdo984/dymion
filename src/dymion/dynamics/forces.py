@@ -1,9 +1,11 @@
 from __future__ import annotations
 from ..core.vector import Vector
 from .body import Body
+import math
 
 # --- Constants ---
 G_EARTH = 9.80665 # Standard gravity in m/s^2
+G_UNIVERSAL = 6.67430e-11 # m^3 kg^-1 s^-2
 
 # --- Force Generators ---
 
@@ -46,3 +48,31 @@ def air_resistance(body: Body, rho: float, drag_coefficient: float, area: float)
     direction = body.velocity.normalize() * -1.0
     magnitude = 0.5 * rho * (speed**2) * drag_coefficient * area
     return direction * magnitude
+
+def universal_gravitation(body1: Body, body2: Body) -> Vector:
+    """
+    Calculates the gravitational force between two bodies:
+    F = G * (m1 * m2) / r^2
+    The force is returned as a vector acting on body1.
+    """
+    # Vector from body1 to body2
+    r_vector = body2.position - body1.position
+    distance = r_vector.magnitude
+
+    if distance == 0:
+        return Vector(0, 0, 0)
+    
+    # Magnitude of the force
+    force_mag = G_UNIVERSAL * (body1.mass * body2.mass) / (distance**2)
+
+    # Direction: Unit vector from body1 to body2
+    direction = r_vector.normalize()
+
+    return direction * force_mag
+
+def escape_velocity(mass_of_planet: float, radius: float) -> float:
+    """
+    Calculates the minimum speed needed to escape a planet's gravity.
+    v = sqrt(2 * G * M / r)
+    """
+    return math.sqrt((2 * G_UNIVERSAL * mass_of_planet) / radius)

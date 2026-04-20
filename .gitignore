@@ -31,3 +31,6 @@ ENV/
 # Testing
 .pytest_cache/
 .mypy_cache/
+
+# Roadmap
+ROADMAP.md
