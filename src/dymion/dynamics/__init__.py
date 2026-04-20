@@ -7,5 +7,7 @@ from .forces import (
     universal_gravitation, 
     escape_velocity,
     G_UNIVERSAL,
-    G_EARTH
+    G_EARTH,
+    centrifugal_force,
+    centripetal_force
 )

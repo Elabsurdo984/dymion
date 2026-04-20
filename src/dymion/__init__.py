@@ -1,4 +1,5 @@
 from .core.vector import Vector
+from .core.io import export_to_json
 from .kinematics import (
     Particle, 
     calculate_position, 
@@ -16,7 +17,9 @@ from .dynamics import (
     spring_force, 
     air_resistance, 
     universal_gravitation,
-    escape_velocity
+    escape_velocity,
+    centripetal_force,
+    centrifugal_force
 )
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"

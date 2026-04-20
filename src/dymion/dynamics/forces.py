@@ -76,3 +76,25 @@ def escape_velocity(mass_of_planet: float, radius: float) -> float:
     v = sqrt(2 * G * M / r)
     """
     return math.sqrt((2 * G_UNIVERSAL * mass_of_planet) / radius)
+
+def centripetal_force(body: Body, omega: float, radius: float) -> Vector:
+    """
+    Calculates the centripetal force required to keep a body in a circular path.
+    F_c = m * omega^2 * r
+    """
+    # Assuming rotation is in the X-Y plane around the origin
+    if body.position.magnitude == 0:
+        return Vector(0, 0, 0)
+
+    # Direction is towards the origin
+    direction = body.position.normalize() * -1.0
+    magnitude = body.mass * (omega**2) * radius
+    return direction * magnitude
+
+def centrifugal_force(body: Body, omega: float, radius: float) -> Vector:
+    """
+    Calculates the centrifugal (fictitious) force experienced in a rotating frame.
+    F_f = m * omega^2 * r
+    The force vector points away from the center of rotation (along r).
+    """
+    return centripetal_force(body, omega, radius) * -1.0
