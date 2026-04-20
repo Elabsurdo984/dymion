@@ -1,0 +1,1 @@
+from .linear import Particle, calculate_position, calculate_velocity
