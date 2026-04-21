@@ -11,15 +11,12 @@ from .kinematics import (
     polar_to_cartesian
 )
 from .dynamics import (
-    Body, 
-    gravity, 
-    friction, 
-    spring_force, 
-    air_resistance, 
-    universal_gravitation,
-    escape_velocity,
-    centripetal_force,
-    centrifugal_force
+    Body, gravity, friction, spring_force, air_resistance, 
+    universal_gravitation, escape_velocity,
+    centripetal_force, centrifugal_force,
+    kinetic_energy, gravitational_potential_energy,
+    elastic_potential_energy, mechanical_energy,
+    work, power
 )
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
