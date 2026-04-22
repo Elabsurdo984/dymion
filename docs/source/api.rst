@@ -41,3 +41,8 @@ Dynamics
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. automodule:: dymion.dynamics.momentum
+   :members:
+   :undoc-members:
+   :show-inheritance:

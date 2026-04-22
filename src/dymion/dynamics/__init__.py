@@ -10,3 +10,7 @@ from .energy import (
     elastic_potential_energy, mechanical_energy,
     work, power
 )
+
+from .momentum import (
+    linear_momentum, impulse, elastic_collision_1d, inelastic_collision_1d
+)

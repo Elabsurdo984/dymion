@@ -16,7 +16,8 @@ from .dynamics import (
     centripetal_force, centrifugal_force,
     kinetic_energy, gravitational_potential_energy,
     elastic_potential_energy, mechanical_energy,
-    work, power
+    work, power, linear_momentum, impulse, elastic_collision_1d,
+    inelastic_collision_1d
 )
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"
