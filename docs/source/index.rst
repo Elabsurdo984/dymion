@@ -6,6 +6,7 @@ Welcome to Dymion's Documentation!
    :caption: Contents:
 
    intro
+   course
    api
    examples
 

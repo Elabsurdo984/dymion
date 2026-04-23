@@ -15,6 +15,7 @@ extensions = [
     'sphinx.ext.autodoc',       # Pull documentation from docstrings
     'sphinx.ext.viewcode',      # Add links to source code
     'sphinx.ext.napoleon',      # Support for Google/NumPy style docstrings
+    'sphinx.ext.mathjax',       # Support for LaTeX math formulas
     'myst_parser',              # Support for Markdown
     'sphinx.ext.githubpages',   # Generate .nojekyll for GitHub Pages
 ]
