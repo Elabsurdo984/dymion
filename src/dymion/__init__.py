@@ -20,4 +20,4 @@ from .dynamics import (
     inelastic_collision_1d
 )
 
-__version__ = "0.4.0"
+__version__ = "0.5.0"

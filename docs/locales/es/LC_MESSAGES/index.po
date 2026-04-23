@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Elabsurdo984
+# This file is distributed under the same license as the Dymion package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dymion \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-23 18:37-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/index.rst:4
+msgid "Contents:"
+msgstr ""
+
+#: ../../source/index.rst:2
+msgid "Welcome to Dymion's Documentation!"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid "Dymion is a professional physics library for kinematics and dynamics."
+msgstr ""
+
+#: ../../source/index.rst:23
+msgid "Features"
+msgstr ""
+
+#: ../../source/index.rst:25
+msgid "**Vector Engine:** 2D and 3D vector operations."
+msgstr ""
+
+#: ../../source/index.rst:26
+msgid "**Kinematics:** Linear and circular motion."
+msgstr ""
+
+#: ../../source/index.rst:27
+msgid "**Dynamics:** Masses, Forces, Gravity, and Friction."
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid "**Energy:** Work, Power, and Kinetic/Potential energy."
+msgstr ""
+
+#: ../../source/index.rst:31
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../source/index.rst:33
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../source/index.rst:34
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../source/index.rst:35
+msgid ":ref:`search`"
+msgstr ""
+

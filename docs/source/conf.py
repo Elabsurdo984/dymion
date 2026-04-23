@@ -8,7 +8,12 @@ sys.path.insert(0, os.path.abspath('../../src'))
 project = 'Dymion'
 copyright = f'{datetime.now().year}, Elabsurdo984'
 author = 'Elabsurdo984'
-release = '0.3.0'
+release = '0.5.0'
+
+# Internationalization
+language = 'en'  # Default language
+locale_dirs = ['../locales/']   # Path to translation files
+gettext_compact = False     # Use one .po file per source file
 
 # Extensions
 extensions = [

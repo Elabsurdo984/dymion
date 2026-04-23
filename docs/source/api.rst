@@ -11,6 +11,11 @@ Core
    :undoc-members:
    :show-inheritance:
 
+.. automodule:: dymion.core.io
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Kinematics
 ----------
 
