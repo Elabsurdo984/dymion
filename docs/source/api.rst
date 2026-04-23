@@ -32,6 +32,11 @@ Dynamics
    :undoc-members:
    :show-inheritance:
 
+.. automodule:: dymion.dynamics.materials
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 .. automodule:: dymion.dynamics.forces
    :members:
    :undoc-members:
