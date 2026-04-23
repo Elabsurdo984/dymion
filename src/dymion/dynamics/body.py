@@ -2,6 +2,7 @@ from __future__ import annotations
 from typing import Optional, List
 from ..core.vector import Vector
 from ..kinematics.linear import Particle
+from .materials import Material, STEEL
 
 class Body(Particle):
     """
@@ -10,7 +11,8 @@ class Body(Particle):
     """
     def __init__(
             self, 
-            mass: float, 
+            mass: float = 1.0,
+            material: Material = STEEL, 
             position: Optional[Vector] = None, 
             velocity: Optional[Vector] = None, 
             acceleration: Optional[Vector] = None
@@ -18,7 +20,8 @@ class Body(Particle):
         super().__init__(position, velocity, acceleration)
         if mass <= 0:
             raise ValueError("Mass must be greater than zero.")
-        self.mass = float(mass) 
+        self.mass = float(mass)
+        self.material = material 
         self._forces: List[Vector] = [] # List of forces acting on the body
 
     def apply_force(self, force: Vector):

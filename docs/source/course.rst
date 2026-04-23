@@ -62,9 +62,15 @@ In Dymion, you apply forces to a body, and it calculates the acceleration automa
    crate.update(dt=0.1)
    print(f"Calculated Acceleration: {crate.acceleration}")
 
-Next Lessons
-------------
+Lesson 4: Materials and Realism
+-------------------------------
 
-* **Energy:** Understanding Work, Power, and the conservation of energy.
-* **Momentum:** What happens when two bodies collide?
-* **Orbits:** How planets stay in the sky.
+In the real world, a collision between two rubber balls is very different from a collision between two blocks of ice.
+This is determinated by the **Coefficient of Restitution** (how much it bounces).
+
+.. code-block:: python
+
+   from dymion.dynamics import Body, ICE, RUBBER
+
+   ice_cube = Body(mass=1, material=ICE)
+   bouncy_ball = Body(mass=1. material=RUBBER)
