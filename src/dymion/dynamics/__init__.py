@@ -27,3 +27,9 @@ from .momentum import (
     inelastic_collision_1d,
     resolve_collision_2d
 )
+from .rotational import (
+    calculate_torque,
+    inertia_sphere,
+    inertia_cylinder,
+    inertia_rod_center
+)

@@ -61,5 +61,5 @@ def resolve_collision_2d(body1: Body, body2: Body):
 
     # Tangential velocities remain the same (frictionless model)
     # Convert back to Cartesian coordinates
-    body1.velocity = (normal.v1n_final) + (tangent * v1t)
-    body2.velocity = (normal.v2n_final) + (tangent * v2t)
+    body1.velocity = (normal * v1n_final) + (tangent * v1t)
+    body2.velocity = (normal * v2n_final) + (tangent * v2t)

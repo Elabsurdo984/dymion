@@ -11,13 +11,30 @@ from .kinematics import (
     polar_to_cartesian
 )
 from .dynamics import (
-    Body, gravity, friction, spring_force, air_resistance, 
-    universal_gravitation, escape_velocity,
-    centripetal_force, centrifugal_force,
-    kinetic_energy, gravitational_potential_energy,
-    elastic_potential_energy, mechanical_energy,
-    work, power, linear_momentum, impulse, elastic_collision_1d,
-    inelastic_collision_1d
+    Body, 
+    gravity, 
+    friction, 
+    spring_force, 
+    air_resistance, 
+    universal_gravitation,
+    escape_velocity,
+    centripetal_force,
+    centrifugal_force,
+    kinetic_energy,
+    gravitational_potential_energy,
+    elastic_potential_energy,
+    mechanical_energy,
+    work,
+    power,
+    linear_momentum,
+    impulse,
+    elastic_collision_1d,
+    inelastic_collision_1d,
+    resolve_collision_2d,
+    calculate_torque,
+    inertia_sphere,
+    inertia_cylinder,
+    inertia_rod_center
 )
 
-__version__ = "0.5.0"
+__version__ = "0.6.0"

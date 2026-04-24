@@ -56,3 +56,8 @@ Dynamics
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. automodule:: dymion.dynamics.rotational
+   :members:
+   :undoc-members:
+   :show-inheritance:

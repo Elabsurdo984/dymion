@@ -1,10 +1,10 @@
 # Spanish translation of the Dymion documentation.
 msgid ""
 msgstr ""
-"Project-Id-Version: Dymion 0.5.0\n"
+"Project-Id-Version: Dymion 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 18:40+0000\n"
-"PO-Revision-Date: 2026-04-23 18:45+0000\n"
+"POT-Creation-Date: 2026-04-23 18:50+0000\n"
+"PO-Revision-Date: 2026-04-23 18:55+0000\n"
 "Last-Translator: Gemini CLI\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -45,8 +45,17 @@ msgstr "En Dymion, aplicas fuerzas a un cuerpo y este calcula la aceleración au
 msgid "Lesson 4: Materials and Realism"
 msgstr "Lección 4: Materiales y Realismo"
 
-msgid "In the real world, a collision between two rubber balls is very different from a collision between two blocks of ice."
-msgstr "En el mundo real, una colisión entre dos pelotas de goma es muy diferente de una colisión entre dos bloques de hielo."
+msgid "In the real world, a collision between two rubber balls is very different from a collision between two blocks of ice. This is determined by the **Coefficient of Restitution** (how much it bounces)."
+msgstr "En el mundo real, una colisión entre dos pelotas de goma es muy diferente de una colisión entre dos bloques de hielo. Esto está determinado por el **Coeficiente de Restitución** (qué tanto rebota)."
 
-msgid "This is determinated by the **Coefficient of Restitution** (how much it bounces)."
-msgstr "Esto está determinado por el **Coeficiente de Restitución** (qué tanto rebota)."
+msgid "Next Lessons"
+msgstr "Próximas Lecciones"
+
+msgid "* **Energy:** Understanding Work, Power, and the conservation of energy."
+msgstr "* **Energía:** Entendiendo el Trabajo, la Potencia y la conservación de la energía."
+
+msgid "* **Momentum:** What happens when two bodies collide?"
+msgstr "* **Momento:** ¿Qué pasa cuando dos cuerpos chocan?"
+
+msgid "* **Orbits:** How planets stay in the sky."
+msgstr "* **Órbitas:** Cómo los planetas se mantienen en el cielo."
