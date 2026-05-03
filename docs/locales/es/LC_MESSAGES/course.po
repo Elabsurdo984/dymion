@@ -1,7 +1,7 @@
 # Spanish translation of the Dymion documentation.
 msgid ""
 msgstr ""
-"Project-Id-Version: Dymion 0.6.0\n"
+"Project-Id-Version: Dymion 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 18:50+0000\n"
 "PO-Revision-Date: 2026-04-23 18:55+0000\n"

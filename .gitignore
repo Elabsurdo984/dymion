@@ -32,5 +32,9 @@ ENV/
 .pytest_cache/
 .mypy_cache/
 
+# AI
+ai-train/
+GEMINI.md
+
 # Roadmap
 ROADMAP.md
