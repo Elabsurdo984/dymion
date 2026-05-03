@@ -34,7 +34,9 @@ from .dynamics import (
     calculate_torque,
     inertia_sphere,
     inertia_cylinder,
-    inertia_rod_center
+    inertia_rod_center,
+    calculate_center_of_mass,
+    calculate_total_momentum
 )
 
-__version__ = "0.6.0"
+__version__ = "0.7.0"

@@ -61,3 +61,8 @@ Dynamics
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. automodule:: dymion.dynamics.systems
+   :members:
+   :undoc-members:
+   :show-inheritance:

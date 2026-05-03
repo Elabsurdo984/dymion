@@ -3,59 +3,113 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dymion 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 18:50+0000\n"
+"POT-Creation-Date: 2026-04-23 18:37-0300\n"
 "PO-Revision-Date: 2026-04-23 18:55+0000\n"
 "Last-Translator: Gemini CLI\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../source/course.rst:2
 msgid "Dymion Physics Course"
 msgstr "Curso de Física Dymion"
 
-msgid "Welcome to the official Dymion learning path. This course will teach you physics concepts by simulating them with code."
-msgstr "Bienvenido a la ruta de aprendizaje oficial de Dymion. Este curso te enseñará conceptos de física mediante simulaciones con código."
+#: ../../source/course.rst:4
+msgid ""
+"Welcome to the official Dymion learning path. This course will teach you "
+"physics concepts by simulating them with code."
+msgstr ""
+"Bienvenido a la ruta de aprendizaje oficial de Dymion. Este curso te "
+"enseñará conceptos de física mediante simulaciones con código."
 
+#: ../../source/course.rst:8
 msgid "Lesson 1: The World of Vectors"
 msgstr "Lección 1: El mundo de los vectores"
 
-msgid "In physics, most things aren't just numbers; they have a direction. These are **Vectors**. A vector in Dymion has three components: :math:`x`, :math:`y`, and :math:`z`."
-msgstr "En física, la mayoría de las cosas no son solo números; tienen una dirección. Estos son los **Vectores**. Un vector en Dymion tiene tres componentes: :math:`x`, :math:`y` y :math:`z`."
+#: ../../source/course.rst:10
+msgid ""
+"In physics, most things aren't just numbers; they have a direction. These"
+" are **Vectors**. A vector in Dymion has three components: :math:`x`, "
+":math:`y`, and :math:`z`."
+msgstr ""
+"En física, la mayoría de las cosas no son solo números; tienen una "
+"dirección. Estos son los **Vectores**. Un vector en Dymion tiene tres "
+"componentes: :math:`x`, :math:`y` y :math:`z`."
 
+#: ../../source/course.rst:13
 msgid "To create a position or a force in Dymion:"
 msgstr "Para crear una posición o una fuerza en Dymion:"
 
+#: ../../source/course.rst:26
 msgid "Lesson 2: Moving Objects (Kinematics)"
 msgstr "Lección 2: Objetos en movimiento (Cinemática)"
 
-msgid "Kinematics is the study of motion without considering its causes. The most important object is the **Particle**. It has position, velocity, and acceleration."
-msgstr "La cinemática es el estudio del movimiento sin considerar sus causas. El objeto más importante es la **Partícula**. Tiene posición, velocidad y aceleración."
+#: ../../source/course.rst:28
+msgid ""
+"Kinematics is the study of motion without considering its causes. The "
+"most important object is the **Particle**. It has position, velocity, and"
+" acceleration."
+msgstr ""
+"La cinemática es el estudio del movimiento sin considerar sus causas. El "
+"objeto más importante es la **Partícula**. Tiene posición, velocidad y "
+"aceleración."
 
+#: ../../source/course.rst:43
 msgid "Lesson 3: Forces and Mass (Dynamics)"
 msgstr "Lección 3: Fuerzas y Masa (Dinámica)"
 
-msgid "Dynamics explains *why* things move. We use the **Body** class because it has **mass**. According to Newton's Second Law:"
-msgstr "La dinámica explica *por qué* se mueven las cosas. Usamos la clase **Body** porque tiene **masa**. Según la Segunda Ley de Newton:"
+#: ../../source/course.rst:45
+msgid ""
+"Dynamics explains *why* things move. We use the **Body** class because it"
+" has **mass**. According to Newton's Second Law:"
+msgstr ""
+"La dinámica explica *por qué* se mueven las cosas. Usamos la clase "
+"**Body** porque tiene **masa**. Según la Segunda Ley de Newton:"
 
-msgid "In Dymion, you apply forces to a body, and it calculates the acceleration automatically."
-msgstr "En Dymion, aplicas fuerzas a un cuerpo y este calcula la aceleración automáticamente."
+#: ../../source/course.rst:48
+#, python-brace-format
+msgid "\\vec{F} = m \\cdot \\vec{a}"
+msgstr ""
 
+#: ../../source/course.rst:52
+msgid ""
+"In Dymion, you apply forces to a body, and it calculates the acceleration"
+" automatically."
+msgstr ""
+"En Dymion, aplicas fuerzas a un cuerpo y este calcula la aceleración "
+"automáticamente."
+
+#: ../../source/course.rst:66
 msgid "Lesson 4: Materials and Realism"
 msgstr "Lección 4: Materiales y Realismo"
 
-msgid "In the real world, a collision between two rubber balls is very different from a collision between two blocks of ice. This is determined by the **Coefficient of Restitution** (how much it bounces)."
-msgstr "En el mundo real, una colisión entre dos pelotas de goma es muy diferente de una colisión entre dos bloques de hielo. Esto está determinado por el **Coeficiente de Restitución** (qué tanto rebota)."
+#: ../../source/course.rst:68
+#, fuzzy
+msgid ""
+"In the real world, a collision between two rubber balls is very different"
+" from a collision between two blocks of ice. This is determinated by the "
+"**Coefficient of Restitution** (how much it bounces)."
+msgstr ""
+"En el mundo real, una colisión entre dos pelotas de goma es muy diferente"
+" de una colisión entre dos bloques de hielo. Esto está determinado por el"
+" **Coeficiente de Restitución** (qué tanto rebota)."
 
-msgid "Next Lessons"
-msgstr "Próximas Lecciones"
+#~ msgid "Next Lessons"
+#~ msgstr "Próximas Lecciones"
 
-msgid "* **Energy:** Understanding Work, Power, and the conservation of energy."
-msgstr "* **Energía:** Entendiendo el Trabajo, la Potencia y la conservación de la energía."
+#~ msgid ""
+#~ "* **Energy:** Understanding Work, Power, "
+#~ "and the conservation of energy."
+#~ msgstr ""
+#~ "* **Energía:** Entendiendo el Trabajo, "
+#~ "la Potencia y la conservación de "
+#~ "la energía."
 
-msgid "* **Momentum:** What happens when two bodies collide?"
-msgstr "* **Momento:** ¿Qué pasa cuando dos cuerpos chocan?"
+#~ msgid "* **Momentum:** What happens when two bodies collide?"
+#~ msgstr "* **Momento:** ¿Qué pasa cuando dos cuerpos chocan?"
 
-msgid "* **Orbits:** How planets stay in the sky."
-msgstr "* **Órbitas:** Cómo los planetas se mantienen en el cielo."
+#~ msgid "* **Orbits:** How planets stay in the sky."
+#~ msgstr "* **Órbitas:** Cómo los planetas se mantienen en el cielo."
+
