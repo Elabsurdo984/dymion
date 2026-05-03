@@ -36,7 +36,11 @@ from .dynamics import (
     inertia_cylinder,
     inertia_rod_center,
     calculate_center_of_mass,
-    calculate_total_momentum
+    calculate_total_momentum,
+    intersect_circles,
+    intersect_aabb,
+    is_static_equilibrium,
+    buoyancy_force
 )
 
 __version__ = "0.7.0"

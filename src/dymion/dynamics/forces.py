@@ -49,6 +49,14 @@ def air_resistance(body: Body, rho: float, drag_coefficient: float, area: float)
     magnitude = 0.5 * rho * (speed**2) * drag_coefficient * area
     return direction * magnitude
 
+def buoyancy_force(fluid_density: float, submerged_volume: float, g: float = G_EARTH) -> Vector:
+    """
+    Archimedes' Principle: F_b = rho * V * g
+    Points upwards (+Y).
+    """
+    magnitude = fluid_density * submerged_volume * g
+    return Vector(0, magnitude, 0)
+
 def universal_gravitation(body1: Body, body2: Body) -> Vector:
     """
     Calculates the gravitational force between two bodies:

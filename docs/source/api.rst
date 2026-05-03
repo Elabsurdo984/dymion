@@ -66,3 +66,13 @@ Dynamics
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. automodule:: dymion.dynamics.collisions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: dymion.dynamics.statics
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dymion 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 11:39-0300\n"
+"POT-Creation-Date: 2026-05-03 11:44-0300\n"
 "PO-Revision-Date: 2026-04-23 18:55+0000\n"
 "Last-Translator: Gemini CLI\n"
 "Language-Team: Spanish\n"
@@ -128,6 +128,10 @@ msgstr ""
 msgid ""
 "Drag Equation: F_d = 1/2 * rho * v^2 * C_d * A Rho is air density, C_d is"
 " drag coefficient, A is cross-sectional area."
+msgstr ""
+
+#: dymion.dynamics.forces.buoyancy_force:1 of
+msgid "Archimedes' Principle: F_b = rho * V * g Points upwards (+Y)."
 msgstr ""
 
 #: dymion.dynamics.forces.centrifugal_force:1 of
@@ -386,13 +390,26 @@ msgid ""
 " v_i)"
 msgstr ""
 
+#: dymion.dynamics.collisions.intersect_aabb:1 of
+msgid "Checks if two Axis-Aligned Bounding Boxes (AABB) intersect."
+msgstr ""
+
+#: dymion.dynamics.collisions.intersect_circles:1 of
+msgid "Checks if two circles/spheres intersect."
+msgstr ""
+
+#: dymion.dynamics.statics.is_static_equilibrium:1 of
+msgid ""
+"Checks if a body is in static equilibrium (Net Force ≈ 0 and Net Torque ≈"
+" 0)."
+msgstr ""
+
 #~ msgid "Momentum & Collisions"
 #~ msgstr "Momento y Colisiones"
 
-msgid "Rotational Dynamics"
-msgstr "Dinámica Rotacional"
+#~ msgid "Rotational Dynamics"
+#~ msgstr "Dinámica Rotacional"
 
-msgid "Systems"
-msgstr "Sistemas"
-
+#~ msgid "Systems"
+#~ msgstr "Sistemas"
 
